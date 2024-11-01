@@ -1,0 +1,104 @@
+/**
+*** Tweet & Like - Buttons
+*** Kurt Polinar - http://kurtpolinar.com
+**/
+
+.tweetandlike-box {
+    background: none repeat scroll 0 0 #E8F0F9;
+    border: 1px solid #ABD2E9;
+    margin: 15px 0;
+    padding: 10px;
+}
+ul#tweetandlike-buttons { display: inline; list-style-type: none; margin: 0; padding: 0; }
+
+ul#tweetandlike-buttons li { display: inline; }
+
+/** Facebook buttons **/
+ul#tweetandlike-buttons span iframe {
+    margin-bottom: -5px;
+}
+
+/** AddThis **/
+ul#tweetandlike-buttons li.first { margin-left: 10px; }
+
+ul#tweetandlike-buttons li a span { margin-top: 5px; }
+
+ul#tweetandlike-buttons li a { margin-top: -7px; }
+
+/** Twitter - Google buttons **/
+ul#tweetandlike-buttons li iframe { margin-top: -10px; }
+
+.tweetandlike-box h4 {
+    color: #3A5796;
+    font-family: 'Helvetica Neue',Arial,sans-serif;
+    font-size: 16px !important;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.box-vertical {
+    height: 90px;
+}
+
+/** Standard - Horizontal Buttons **/
+#tweetandlike-standard-horizontal-buttons { list-style-type: none; display: inline; margin: 0; padding: 0; }
+
+#tweetandlike-standard-horizontal-buttons li{ list-style-type: none; display: inline; }
+
+/** Standard - Vertical Buttons **/
+#tweetandlike-standard-vertical-buttons { list-style-type: none; display: block; margin: 0; padding: 0; }
+
+#tweetandlike-standard-vertical-buttons li{ list-style-type: none; display: block; }
+
+/** Tall - Vertical Buttons **/
+#tweetandlike-tall-vertical-buttons { list-style-type: none; display: block; padding: 0; margin: 0; }
+
+#tweetandlike-tall-vertical-buttons li{ list-style-type: none; }
+
+/** Tall - Horizontal Buttons **/
+#tweetandlike-tall-horizontal-buttons { list-style-type: none; display: inline; margin: 0; padding: 0; }
+
+#tweetandlike-tall-horizontal-buttons li{ list-style-type: none; display: inline; margin-right: 10px !important; }
+
+#tweetandlike-tall-horizontal-buttons li.last{ margin-right: 0 !important; }
+
+#tweetandlike-tall-horizontal-buttons li.last iframe{ margin-bottom: 4px !important; }
+
+.right-standard-horizontal{
+	float: right;
+	display: block;
+}
+
+.left-standard-horizontal {
+	float: left;
+	display: block;
+}
+
+.left-standard-vertical {
+	float: left;
+	display: block;
+}
+
+.right-tall-vertical {
+	float: right;
+	display: block;
+	margin-left: 10px !important;
+}
+
+.right-tall-horizontal {
+	float: right;
+	display: block;	
+	margin: 0;
+}
+
+.left-tall-vertical {
+	float: left;	
+	display: block;	
+	margin-right: 10px !important;
+}
+
+.left-tall-horizontal {
+	float: left;
+	display: block;
+	margin: 0;
+}
